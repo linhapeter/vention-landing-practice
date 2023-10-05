@@ -1,4 +1,10 @@
-$bgColor: #cccccc;
+$bgColor: #b12f9b;
+$buttonColor: #667c3c;
+
 body{
 background: $bgColor;
+}
+
+button{
+ background-color:  $buttonColor;
 }
