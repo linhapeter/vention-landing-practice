@@ -6,28 +6,25 @@
   <title>Document</title>
   <link rel="stylesheet" href="/dist/css/style.css">
 </head>
-<body>
-  <header>
-    <nav>
+<body style="background-color: aquamarine;">
+  <header >
+    <nav class="navbar">
       <div>
-          <img>
+          <img src="../images/itapplogo_color.webp" >
       </div>
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">About</a></li>
-      </ul>
-      <div>
-        <ul>
-          <li><a href="#">For Employers</a></li>
-          <li><a href="#">For Headhunters</a></li>
-        </ul>
-          <div>
-            <button></button>
-            <button></button>
-          </div>
-      </div>
+        <button class="toggle-button" onclick="toggleMenu(), changeToggleIcon()">
+          <img src="../images/ic24-menu.webp" alt="Your Icon">
+        </button>
   </nav>
+  <div class="dropdown-menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">For Employers</a></li>
+      <li><a href="#">For Headhunters</a></li>
+  </ul>
+  </div>
   </header>
   <main>
     <section>
@@ -192,18 +189,11 @@
       </div>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
     <nav aria-label="footer-nav">
-      <div>
-        <h4>I-TAPP</h4>
-        <ul>
-          <li>&copy; 2021 I-TAPP</li>
-          <li>All rights reserved</li>
-        </ul>
-      </div>
-      <div>
+      <div >
         <h5>Company</h5>
-        <ul>
+        <ul >
           <li><a href="#">Home</a></li>
           <li><a href="#">About I-TAPP</a></li>
           <li><a href="#">News</a></li>
@@ -216,8 +206,14 @@
           <li><a href="#">For Employers</a></li>
           <li><a href="#">For Headhunters</a></li>
         </ul>
+        <h4>I-TAPP</h4>
+        <ul>
+          <li>&copy; 2021 I-TAPP</li>
+          <li>All rights reserved</li>
+        </ul>
       </div>
     </nav>
   </footer>
+  <script src="../js/index.js"></script>
 </body>
 </html>

@@ -1,10 +1,104 @@
-$bgColor: #b12f9b;
-$buttonColor: #667c3c;
+$primaryColor: #FFFFFF;
+$secondaryColor: #2E1AAD;
+$grayColor: #F5F7FA;
+$darkrtGrayColor: #D9DBE1;
+$blackColor: #0B0D17;
 
-body{
-background: $bgColor;
+body {
+  margin: 0;
+
+  .toggle-button {
+    background-color: $primaryColor;
+    border: none;
+  }
 }
 
-button{
- background-color:  $buttonColor;
+.navbar {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $primaryColor;
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  background-color: $primaryColor;
+  z-index: 2;
+  width: 100%;
+  display: none;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 10px;
+      border-bottom: 1px solid $grayColor;
+
+      a {
+        font-feature-settings: 'liga' off;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        text-decoration: none;
+        color: $blackColor;
+        display: block;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $blackColor;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+
+    div {
+      text-align: center;
+
+      h5 {
+        color: $primaryColor;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px;
+      }
+
+      h4 {
+        color: $primaryColor;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 8px;
+      text-decoration: none;
+      color: $darkrtGrayColor;
+
+      a {
+        text-decoration: none;
+        color: $darkrtGrayColor;
+      }
+    }
+  }
 }
