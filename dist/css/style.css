@@ -1,7 +1,93 @@
 body {
-  background: #b12f9b;
+  margin: 0;
 }
 
-button {
-  background-color: #667c3c;
+.search-section {
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: center;
+}
+.search-section .container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.search-section div {
+  word-wrap: break-word;
+}
+.search-section .job-input {
+  background-color: #F5F7FA;
+  color: #999999;
+  padding: 10px;
+  border: 2px solid #DDDDDD;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 30px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.search-section .job-input::placeholder {
+  color: #999999;
+  font-weight: 700;
+  font-size: 16px;
+}
+.search-section .where-input {
+  background-color: #F5F7FA;
+  color: #999999;
+  padding: 10px;
+  border: 2px solid #DDDDDD;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 30px;
+  width: 42.5%;
+  margin-right: 1.5%;
+}
+.search-section .where-input::placeholder {
+  color: #999999;
+  font-weight: 700;
+  font-size: 16px;
+}
+.search-section .search-button {
+  background-color: #2E1AAD;
+  color: #FFFFFF;
+  padding: 10px;
+  border: 2px solid #2E1AAD;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.search-section p {
+  color: #999999;
+}
+.search-section select {
+  background-color: #F5F7FA;
+  color: #999999;
+  padding: 10px;
+  border: 2px solid #DDDDDD;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  width: 42.5%;
+  margin-left: 1.5%;
+}
+.search-section select option {
+  background-color: #F5F7FA;
+  color: #999999;
+  padding: 10px;
+  border: 2px solid #DDDDDD;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  width: 42.5%;
 }
