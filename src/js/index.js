@@ -5,10 +5,12 @@ const toggleMenu = () => {
 }
 
 const changeToggleIcon = () => {
-  const menu = document.querySelector('.dropdown-menu');
-  const img = document.querySelector(".toggle-button").querySelector("img");
-
-  img.src = (menu.style.display === 'none' || menu.style.display === '') ? "../images/ic24-menu.webp" : "../images/x_icon.webp";
+  const icon = document.querySelector(".toggle-button").querySelector("i");
+  console.log(icon.classList);
+  icon.classList.toggle("fa-bars");
+  icon.classList.toggle("fa-x");
+  icon.classList.toggle("menu-icon");
+  icon.classList.toggle("x-icon");
 }
 
 const handleNavOpen = () => {

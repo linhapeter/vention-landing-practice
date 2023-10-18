@@ -3,6 +3,7 @@ $secondaryColor: #2E1AAD;
 $grayColor: #F5F7FA;
 $darkrtGrayColor: #D9DBE1;
 $blackColor: #0B0D17;
+$basicTextGrayColor: #999999;
 
 body {
   margin: 0;
@@ -19,6 +20,12 @@ body {
   justify-content: space-between;
   background-color: $primaryColor;
   position: relative;
+  .menu-icon{
+    color: $secondaryColor;
+  }
+  .x-icon{
+    color: $basicTextGrayColor;
+  }
 }
 .dropdown-menu {
   position: absolute;
