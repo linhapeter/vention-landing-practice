@@ -35,16 +35,16 @@ body {
   width: 100%;
   display: block;
 
-  ul {
+  .dropdown-menu-ul {
     list-style: none;
     padding: 0;
     margin: 0;
 
-    li {
+    .dropdown-menu-ul-li {
       padding: 10px;
       border-bottom: 1px solid $grayColor;
 
-      a {
+      .dropdown-menu-ul-li-a {
         font-feature-settings: 'liga' off;
         font-family: Manrope;
         font-size: 16px;
@@ -72,16 +72,17 @@ body {
   justify-content: center;
   padding: 20px;
 
-  nav {
+  .footer-nav {
+   
     display: flex;
     justify-content: space-around;
     max-width: 1200px;
     width: 100%;
 
-    div {
+    .footer-nav-div {
       text-align: center;
 
-      h5 {
+      .footer-nav-div-h5 {
         color: $primaryColor;
         font-size: 18px;
         font-style: normal;
@@ -89,7 +90,7 @@ body {
         line-height: 26px;
       }
 
-      h4 {
+      .footer-nav-div-h4 {
         color: $primaryColor;
         font-size: 30px;
         font-style: normal;
@@ -97,22 +98,24 @@ body {
         line-height: normal;
         text-transform: uppercase;
       }
-    }
-  }
 
-  ul {
-    list-style: none;
-    padding: 0;
-
-    li {
-      margin-bottom: 8px;
-      text-decoration: none;
-      color: $darkrtGrayColor;
-
-      a {
-        text-decoration: none;
-        color: $darkrtGrayColor;
+      .footer-nav-div-ul {
+        list-style: none;
+        padding: 0;
+    
+        .footer-nav-div-ul-li {
+          margin-bottom: 8px;
+          text-decoration: none;
+          color: $darkrtGrayColor;
+    
+          .footer-nav-div-ul-li-a {
+            text-decoration: none;
+            color: $darkrtGrayColor;
+          }
+        }
       }
     }
   }
+
+  
 }
