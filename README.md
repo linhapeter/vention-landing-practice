@@ -1,0 +1,1 @@
+To run app correctly with style use terminal comand: gulp watchStyle
