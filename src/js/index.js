@@ -10,3 +10,8 @@ const changeToggleIcon = () => {
 
   img.src = (menu.style.display === 'none' || menu.style.display === '') ? "../images/ic24-menu.webp" : "../images/x_icon.webp";
 }
+
+const handleNavOpen = () => {
+  toggleMenu();
+  changeToggleIcon();
+}
