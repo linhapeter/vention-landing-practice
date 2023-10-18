@@ -6,7 +6,6 @@ const toggleMenu = () => {
 
 const changeToggleIcon = () => {
   const icon = document.querySelector(".toggle-button").querySelector("i");
-  console.log(icon.classList);
   icon.classList.toggle("fa-bars");
   icon.classList.toggle("fa-x");
   icon.classList.toggle("menu-icon");
