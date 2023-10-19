@@ -1,0 +1,54 @@
+@use 'colors.scss';
+.footer {
+  background-color: colors.$blackColor;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  .footer-nav {
+   
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+
+    .footer-nav__div {
+      text-align: center;
+
+      .footer-nav__div__h5 {
+        color: colors.$primaryColor;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px;
+      }
+
+      .footer-nav__div__h4 {
+        color: colors.$primaryColor;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+
+      .footer-nav__div__ul {
+        list-style: none;
+        padding: 0;
+    
+        .footer-nav__div__ul__li {
+          margin-bottom: 8px;
+          text-decoration: none;
+          color: colors.$darkerGrayColor;
+    
+          .footer-nav__div__ul__li__a {
+            text-decoration: none;
+            color: colors.$darkerGrayColor;
+          }
+        }
+      }
+    }
+  }
+
+  
+}
