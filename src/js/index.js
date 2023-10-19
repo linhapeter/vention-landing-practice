@@ -1,8 +1,8 @@
 const toggleMenu = () => {
   const menu = document.querySelector('.dropdown-menu');
 
-  menu.classList.toggle("dropdown-menu-off");
-  menu.classList.toggle("dropdown-menu-on");
+  menu.classList.toggle("dropdown-menu_off");
+  menu.classList.toggle("dropdown-menu_on");
 }
 
 const changeToggleIcon = () => {

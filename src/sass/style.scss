@@ -21,7 +21,7 @@ body {
     color: $basicTextGrayColor;
   }
 }
-.dropdown-menu-on {
+.dropdown-menu_on {
   position: absolute;
   left: 0;
   background-color: $primaryColor;
@@ -29,16 +29,16 @@ body {
   width: 100%;
   display: block;
 
-  .dropdown-menu-ul {
+  .dropdown-menu__ul {
     list-style: none;
     padding: 0;
     margin: 0;
 
-    .dropdown-menu-ul-li {
+    .dropdown-menu__ul__li {
       padding: 10px;
       border-bottom: 1px solid $grayColor;
 
-      .dropdown-menu-ul-li-a {
+      .dropdown-menu__ul__li__a {
         font-feature-settings: 'liga' off;
         font-family: Manrope;
         font-size: 16px;
@@ -52,7 +52,7 @@ body {
     }
   }
 }
-.dropdown-menu-off {
+.dropdown-menu_off {
   position: absolute;
   left: 0;
   background-color: $primaryColor;
@@ -73,10 +73,10 @@ body {
     max-width: 1200px;
     width: 100%;
 
-    .footer-nav-div {
+    .footer-nav__div {
       text-align: center;
 
-      .footer-nav-div-h5 {
+      .footer-nav__div__h5 {
         color: $primaryColor;
         font-size: 18px;
         font-style: normal;
@@ -84,7 +84,7 @@ body {
         line-height: 26px;
       }
 
-      .footer-nav-div-h4 {
+      .footer-nav__div__h4 {
         color: $primaryColor;
         font-size: 30px;
         font-style: normal;
@@ -93,16 +93,16 @@ body {
         text-transform: uppercase;
       }
 
-      .footer-nav-div-ul {
+      .footer-nav__div__ul {
         list-style: none;
         padding: 0;
     
-        .footer-nav-div-ul-li {
+        .footer-nav__div__ul__li {
           margin-bottom: 8px;
           text-decoration: none;
           color: $darkrtGrayColor;
     
-          .footer-nav-div-ul-li-a {
+          .footer-nav__div__ul__li__a {
             text-decoration: none;
             color: $darkrtGrayColor;
           }
