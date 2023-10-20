@@ -1,10 +1,6 @@
-$bgColor: #b12f9b;
-$buttonColor: #667c3c;
+@use 'colors.scss';
+@use 'search-section.scss';
 
 body{
-background: $bgColor;
-}
-
-button{
- background-color:  $buttonColor;
+margin: 0;
 }
