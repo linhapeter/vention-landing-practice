@@ -12,10 +12,10 @@
     max-width: 1200px;
     width: 100%;
 
-    .footer-nav__div {
+    &__div {
       text-align: center;
 
-      .footer-nav__div__h5 {
+      &__h5 {
         color: colors.$primaryColor;
         font-size: 18px;
         font-style: normal;
@@ -23,7 +23,7 @@
         line-height: 26px;
       }
 
-      .footer-nav__div__h4 {
+      &__h4 {
         color: colors.$primaryColor;
         font-size: 30px;
         font-style: normal;
@@ -32,16 +32,16 @@
         text-transform: uppercase;
       }
 
-      .footer-nav__div__ul {
+      &__ul {
         list-style: none;
         padding: 0;
     
-        .footer-nav__div__ul__li {
+        &__li {
           margin-bottom: 8px;
           text-decoration: none;
           color: colors.$darkerGrayColor;
     
-          .footer-nav__div__ul__li__a {
+          &__a {
             text-decoration: none;
             color: colors.$darkerGrayColor;
           }
