@@ -1,0 +1,24 @@
+<footer class="footer">
+  <nav class="footer-nav" aria__label="footer-nav">
+    <div class="footer-nav__div">
+      <h5 class="footer-nav__div__h5">Company</h5>
+      <ul class="footer-nav__div__ul">
+        {{#each companyLinks}}
+        <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="{{url}}">{{text}}</a></li>
+        {{/each}}
+      </ul>
+      <h5 class="footer-nav__div__h5">Jobs</h5>
+      <ul class="footer-nav__div__ul">
+        {{#each jobsLinks}}
+        <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="{{url}}">{{text}}</a></li>
+        {{/each}}
+      </ul>
+      <h4 class="footer-nav__div__h4">I-TAPP</h4>
+      <ul class="footer-nav__div__ul">
+        {{#each itappInfo}}
+        <li class="footer-nav__div__ul__li">{{text}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </nav>
+</footer>

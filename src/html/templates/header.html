@@ -1,0 +1,23 @@
+
+<header>
+  <nav class="navbar">
+    <div>
+      <img src="{{logoSrc}}">
+    </div>
+    <div class="icon-container">
+      <button class="icon-button">
+        <i class="{{userIconClass}}"></i>
+      </button>
+      <button class="icon-button toggle-button" onclick="handleNavOpen()">
+        <i class="{{menuIconClass}}"></i>
+      </button>
+    </div>
+  </nav>
+  <div class="dropdown-menu {{dropdownClass}}">
+    <ul class="dropdown-menu_on__ul">
+      {{#each menuItems}}
+      <li class="dropdown-menu_on__ul__li"><a class="dropdown-menu_on__ul__li__a" href="{{url}}">{{text}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+</header>

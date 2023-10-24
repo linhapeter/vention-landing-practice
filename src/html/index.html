@@ -4,35 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" href="/dist/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <header >
-    <nav class="navbar">
-      <div>
-          <img src="../images/itapplogo_color.webp" >
-      </div>
-      <div class="icon-container">
-        <button class="icon-button" href="#">
-          <i class="fa-regular fa-user fa-2xl user-icon"></i>
-        </button>
-          <button class="icon-button toggle-button" href="#">
-            <i class="fa-solid fa-bars fa-2xl menu-icon"></i>
-          </button>
-      </div>
-      
-  </nav>
-  <div class="dropdown-menu dropdown-menu_off">
-    <ul class="dropdown-menu_on__ul">
-      <li class="dropdown-menu_on__ul__li"><a class="dropdown-menu_on__ul__li__a" href="#">Home</a></li>
-      <li class="dropdown-menu_on__ul__li"><a class="dropdown-menu_on__ul__li__a" href="#">News</a></li>
-      <li class="dropdown-menu_on__ul__li"><a class="dropdown-menu_on__ul__li__a" href="#">About</a></li>
-      <li class="dropdown-menu_on__ul__li"><a class="dropdown-menu_on__ul__li__a" href="#">For Employers</a></li>
-      <li class="dropdown-menu_on__ul__li"><a class="dropdown-menu_on__ul__li__a" href="#">For Headhunters</a></li>
-  </ul>
-  </div>
-  </header>
+  <div id="header-container"></div>
   <main>
     <section class="search-section">
       <div class="search-section-container">
@@ -204,31 +181,10 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
-    <nav class="footer-nav" aria__label="footer-nav">
-      <div class="footer-nav__div">
-        <h5 class="footer-nav__div__h5">Company</h5>
-        <ul class="footer-nav__div__ul">
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">Home</a></li>
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">About I-TAPP</a></li>
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">News</a></li>
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">Terms and Conditions</a></li>
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">Privacy Policy</a></li>
-        </ul>
-        <h5 class="footer-nav__div__h5">Jobs</h5>
-        <ul class="footer-nav__div__ul">
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">For Candidates</a></li>
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">For Employers</a></li>
-          <li class="footer-nav__div__ul__li"><a class="footer-nav__div__ul__li__a" href="#">For Headhunters</a></li>
-        </ul>
-        <h4 class="footer-nav__div__h4">I-TAPP</h4>
-        <ul class="footer-nav__div__ul">
-          <li class="footer-nav__div__ul__li">&copy; 2021 I-TAPP</li>
-          <li class="footer-nav__div__ul__li">All rights reserved</li>
-        </ul>
-      </div>
-    </nav>
-  </footer>
+  <div id="footer-container"></div>
+  <script src="../../node_modules/handlebars/dist/handlebars.js"></script>
   <script src="../js/index.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/footer.js"></script>
 </body>
 </html>
