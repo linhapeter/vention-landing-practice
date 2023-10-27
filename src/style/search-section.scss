@@ -1,0 +1,94 @@
+@use 'colors.scss';
+.search-section{
+  background-color: colors.$grayColor;
+  display: flex;
+  justify-content: center;
+
+ .search-section-container{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+
+  .job-input{
+    background-color: colors.$grayColor;
+    color: colors.$basicTextGrayColor;
+    padding: 10px;
+    border: 2px solid colors.$inputBorderGray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 30px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .job-input::placeholder {
+    color:  colors.$basicTextGrayColor;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .where-input{
+    background-color: colors.$grayColor;
+    color: colors.$basicTextGrayColor;
+    padding: 10px;
+    border: 2px solid colors.$inputBorderGray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 30px;
+    width: 42.5%;
+    margin-right: 1.5%;
+  }
+  .where-input::placeholder {
+    color:  colors.$basicTextGrayColor;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .search-button{
+    background-color: colors.$secondaryColor;
+    color: colors.$primaryColor;
+    padding: 10px;
+    border: 2px solid colors.$secondaryColor;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .search-section__p{
+    color: colors.$basicTextGrayColor;
+  }
+  .search-section__select{
+    background-color: colors.$grayColor;
+    color: colors.$basicTextGrayColor;
+    padding: 10px;
+    border: 2px solid colors.$inputBorderGray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 50px;
+    width: 42.5%;
+    margin-left: 1.5%;
+  }
+
+.search-section__select__option {
+  background-color: colors.$grayColor;
+  color: colors.$basicTextGrayColor;
+  padding: 10px;
+  border: 2px solid colors.$inputBorderGray;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  width: 42.5%;
+  }
+ }
+
+  
+
+}
