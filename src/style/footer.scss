@@ -2,48 +2,46 @@
 .footer {
   background-color: colors.$blackColor;
   padding: 20px;
+}
 
-  .footer-nav {
-    max-width: 1200px;
-    width: 100%;
+.footer-nav {
+  max-width: 1200px;
+  width: 100%;
 
-    &__div {
-      text-align: center;
+  &__div {
+    text-align: center;
 
-      &__h5 {
-        color: colors.$primaryColor;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 26px;
-      }
+    &__h5 {
+      color: colors.$primaryColor;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 26px;
+    }
 
-      &__h4 {
-        color: colors.$primaryColor;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        text-transform: uppercase;
-      }
+    &__h4 {
+      color: colors.$primaryColor;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      text-transform: uppercase;
+    }
 
-      &__ul {
-        list-style: none;
-        padding: 0;
-    
-        &__li {
-          margin-bottom: 8px;
+    &__ul {
+      list-style: none;
+      padding: 0;
+  
+      &__li {
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: colors.$darkerGrayColor;
+  
+        &__a {
           text-decoration: none;
           color: colors.$darkerGrayColor;
-    
-          &__a {
-            text-decoration: none;
-            color: colors.$darkerGrayColor;
-          }
         }
       }
     }
   }
-
-  
 }

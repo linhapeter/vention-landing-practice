@@ -3,14 +3,14 @@
   background-color: colors.$grayColor;
   display: flex;
   justify-content: center;
-
+}
  .search-section-container{
   width: 50%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-self: center;
-
+ }
   .job-input{
     background-color: colors.$grayColor;
     color: colors.$basicTextGrayColor;
@@ -87,8 +87,3 @@
   height: 50px;
   width: 42.5%;
   }
- }
-
-  
-
-}
