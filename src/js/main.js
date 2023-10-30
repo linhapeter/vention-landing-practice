@@ -1,3 +1,5 @@
+console.log("========>>>Hello Gulp<<<========");
+
 const toggleMenu = () => {
   const menu = document.querySelector('.dropdown-menu');
 

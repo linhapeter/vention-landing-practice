@@ -1,0 +1,15 @@
+header
+  nav.navbar
+    div
+      img(src="./assets/img/itapplogo_color.webp")
+    .icon-container
+      button.icon-button(href='#')
+        i.fa-regular.fa-user.fa-2xl.user-icon
+      button.icon-button.toggle-button(onclick="handleNavOpen()")
+        i.fa-solid.fa-bars.fa-2xl.menu-icon
+  .dropdown-menu.dropdown-menu_off
+    ul.dropdown-menu_on__ul
+      each item in ['Home', 'News', 'About', 'For Employers', 'For Headhunters']
+        li.dropdown-menu_on__ul__li
+          a.dropdown-menu_on__ul__li__a(href='#')= item 
+      

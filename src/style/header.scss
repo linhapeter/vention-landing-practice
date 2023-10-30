@@ -6,25 +6,24 @@
   justify-content: space-between;
   background-color: colors.$primaryColor;
   position: relative;
-   
-  .icon-container{
-    display: flex;
-    align-items: center;
-    .icon-button {
-      background-color: colors.$primaryColor;
-      border: none;
-      padding: 15px;
-      .user-icon{
-        color: colors.$secondaryColor;
-      }
-      .menu-icon{
-        color: colors.$secondaryColor;
-      }
-      .x-icon{
-        color: colors.$basicTextGrayColor;
-      }
-    }
-  }
+}
+.icon-container{
+  display: flex;
+  align-items: center;
+}
+.icon-button {
+  background-color: colors.$primaryColor;
+  border: none;
+  padding: 15px;
+}
+.user-icon{
+  color: colors.$secondaryColor;
+}
+.menu-icon{
+  color: colors.$secondaryColor;
+}
+.x-icon{
+  color: colors.$basicTextGrayColor;
 }
 .dropdown-menu_on {
   position: absolute;

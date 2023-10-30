@@ -1,22 +1,42 @@
 {
-  "name": "landingpagepractice",
+  "name": "gulp",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "del": "3.0.0",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-eslint-new": "^1.8.4",
+    "gulp-load-plugins": "^2.0.8",
+    "gulp-notify": "^4.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-replace": "^1.1.4",
     "gulp-sass": "^5.1.0",
-    "imagemin": "^8.0.1",
-    "sass": "^1.68.0"
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-svgmin": "^4.1.0",
+    "gulp.spritesmith": "^6.13.0",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.69.4",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "stylelint": "^14.8.5",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-selector-bem-pattern": "^2.1.1"
   },
   "dependencies": {
-    "handlebars": "^4.7.8",
     "normalize.css": "^8.0.1"
   }
 }
