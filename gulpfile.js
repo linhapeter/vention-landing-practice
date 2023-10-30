@@ -27,7 +27,7 @@ $.gulp.task(
       // "js:foundation",
       "js:process",
       // "sprite",
-      // "copy:image",
+      "copy:image",
       "css:foundation"
       // "sprite:svg",
       // "copy:fonts"
