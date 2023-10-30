@@ -1,14 +1,9 @@
 @use 'colors.scss';
 .footer {
   background-color: colors.$blackColor;
-  display: flex;
-  justify-content: center;
   padding: 20px;
 
   .footer-nav {
-   
-    display: flex;
-    justify-content: space-around;
     max-width: 1200px;
     width: 100%;
 

@@ -1,27 +1,9 @@
 footer.footer
   nav.footer-nav(aria__label='footer-nav')
-    .footer-nav__div
-      h5.footer-nav__div__h5 Company
-      ul.footer-nav__div__ul
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') Home
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') About I-TAPP
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') News
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') Terms and Conditions
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') Privacy Policy
-      h5.footer-nav__div__h5 Jobs
-      ul.footer-nav__div__ul
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') For Candidates
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') For Employers
-        li.footer-nav__div__ul__li
-          a.footer-nav__div__ul__li__a(href='#') For Headhunters
-      h4.footer-nav__div__h4 I-TAPP
-      ul.footer-nav__div__ul
-        li.footer-nav__div__ul__li &copy; 2021 I-TAPP
-        li.footer-nav__div__ul__li All rights reserved
+    each section in ['Company', 'Jobs', 'I-TAPP']
+      .footer-nav__div
+        h5.footer-nav__div__h5= section
+        ul.footer-nav__div__ul
+          each item in (section === 'Company' ? ['Home', 'About I-TAPP', 'News', 'Terms and Conditions', 'Privacy Policy'] : section === 'Jobs' ? ['For Candidates', 'For Employers', 'For Headhunters'] : ['&copy; 2021 I-TAPP', 'All rights reserved'])
+            li.footer-nav__div__ul__li
+              a.footer-nav__div__ul__li__a(href='#')= item

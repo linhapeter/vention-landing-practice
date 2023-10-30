@@ -9,13 +9,7 @@ header
         i.fa-solid.fa-bars.fa-2xl.menu-icon
   .dropdown-menu.dropdown-menu_off
     ul.dropdown-menu_on__ul
-      li.dropdown-menu_on__ul__li
-        a.dropdown-menu_on__ul__li__a(href='#') Home
-      li.dropdown-menu_on__ul__li
-        a.dropdown-menu_on__ul__li__a(href='#') News
-      li.dropdown-menu_on__ul__li
-        a.dropdown-menu_on__ul__li__a(href='#') About
-      li.dropdown-menu_on__ul__li
-        a.dropdown-menu_on__ul__li__a(href='#') For Employers
-      li.dropdown-menu_on__ul__li
-        a.dropdown-menu_on__ul__li__a(href='#') For Headhunters
+      each item in ['Home', 'News', 'About', 'For Employers', 'For Headhunters']
+        li.dropdown-menu_on__ul__li
+          a.dropdown-menu_on__ul__li__a(href='#')= item 
+      
