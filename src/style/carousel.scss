@@ -1,0 +1,62 @@
+@use 'colors.scss';
+.carousel-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-article{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.info-panel{
+  background-color: colors.$grayColor;
+  border-radius: 8px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  text-align: center;
+  border-radius: 8px;
+  background-color: colors.$grayColor;
+  flex: 0 0 100%;
+  
+ &__p{
+  color: colors.$basicTextGrayColor;
+ }
+}
+
+.slide-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.slide-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: colors.$basicTextGrayColor;
+  border: 3px solid colors.$secondaryColor;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slide-indicator.active {
+  background-color: colors.$secondaryColor;
+  border: 3px solid colors.$primaryColor;
+}

@@ -1,0 +1,41 @@
+- const candidatesSlides = [{title: "Build profile page", description: "Manage all applications in one area"}, {title: "User friendly", description: "Easy CV upload, build or edit"}, {title: "Nothing will be lost", description: "Save jobs for later viewing, share to colleagues or social media"}, {title: "Recommendations", description: "View recommended jobs based on selected preferences"}, {title: "Apply directly to employer", description: "All jobs posted are employer only"}, {title: "Feedback on all applications ", description: "You will always receive a response to your application"}, {title: "Advanced search", description: "Search by multi location/ type feature"}, {title: "Visibility", description: "Be visible to employers for invitations to apply for a position "},]
+- const employerSlides = [{title: "Everything you need", description: "Manage recruitment process all in one place "}, {title: "Reduce annual recruitment costs", description: "Simplified recruitment process reducing overheads"}, {title: "Application flow", description: "Direct applicants with full view CV and details"}, {title: "Personalized", description: "Build job and personalized process (stages, questions etc.)"}, {title: "Tailored packages ", description: "Customize your package to your needs"}, {title: "Analytics ", description: "Get detailed information on how your applications are performing"}, {title: "Candidate database ", description: "Collect your own candidate database and recommend other roles in your organization."},]
+- const headhunterSlides = [{title: "Build profile", description: "Advertise skills/ expertise to employers and candidates"}, {title: "Get invited to assist on a vacancy", description: "Submit your candidates directly to employers"}, {title: "Develop stronger client relationships", description: "No confusion who submitted candidates first"}, {title: "Weekly progress summary", description: "Get weekly updates on your candidates progress"}]
+
+
+section.carousel-section
+  article.carousel-article
+    div
+      img(src="./assets/img/forCandidatesIllustration.webp")
+    h2 For Candidates
+    .carousel-container.candidates-carousel
+      .carousel 
+        each slide in candidatesSlides
+          .slide
+            h3= slide.title
+            p.slide__p= slide.description
+      .slide-indicators
+  article.carousel-article
+    div
+      img(src="./assets/img/forEmployersIllustration.webp")
+    h2 For Employers
+    .carousel-container.employers-carousel
+      .carousel 
+        each slide in employerSlides
+          .slide
+            h3= slide.title
+            p.slide__p= slide.description
+      .slide-indicators
+      button.primary-button For Employers
+  article.carousel-article
+    div
+      img(src="./assets/img/foHeadhuntersIllustration.webp")
+    h2 For Headhunters
+    .carousel-container.headhunters-carousel
+      .carousel 
+        each slide in headhunterSlides
+          .slide
+            h3= slide.title
+            p.slide__p= slide.description
+      .slide-indicators
+      button.primary-button For Headhunters
