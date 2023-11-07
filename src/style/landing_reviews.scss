@@ -1,0 +1,23 @@
+@use 'colors.scss';
+
+.rev-slide{
+  background-color: colors.$primaryColor;
+  padding: 25px;
+}
+
+.rev-carousel-section{
+  background-color: colors.$grayColor;
+  text-align: center;
+}
+
+.profile-container{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.profile-line-adjustment{
+  line-height: 0px;
+}

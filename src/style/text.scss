@@ -1,0 +1,94 @@
+@use 'colors.scss';
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 800;
+  src: url('../../fonts/Manrope-ExtraBold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    font-weight: 400;
+    src: url('../../fonts/Manrope-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Manrope';
+      font-weight: 500;
+      src: url('../../fonts/Manrope-Medium.ttf') format('truetype');
+      }
+
+      .black-headline-4{
+        color: colors.$blackColor;
+        font-family: 'Manrope';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+      }
+
+      .white-headline-4{
+        color: colors.$primaryColor;
+        font-family: 'Manrope';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+      }
+
+      .black-headline-6{
+        color: colors.$blackColor;
+        font-family: 'Manrope';
+        font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+      }
+
+      .gray-on-gray-subtitle-2{
+        color: colors.$basicTextGrayColor;
+        font-family: 'Manrope';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+      }
+
+      .black-subtitle-2{
+        color: colors.$blackColor;
+        font-family: 'Manrope';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+      }
+
+  .black-lead-1{
+    color: colors.$blackColor;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+ 
+
+  .gray-on-gray-lead-1{
+    color: colors.$basicTextGrayColor;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .black-on-gray-body-1{
+    color: colors.$darkerGrayColor;
+    font-family: 'Manrope';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+  }
+
+  
