@@ -1,9 +1,11 @@
 @use 'colors.scss';
+@use 'text.scss';
 @use 'header.scss';
 @use 'footer.scss';
 @use 'search-section.scss';
+@use 'carousel.scss';
+@use 'reusable.scss';
 
 * {
   box-sizing: border-box;
 }
-
