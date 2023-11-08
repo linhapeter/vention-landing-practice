@@ -3,8 +3,9 @@
 
 section.basic-section
   h2.black-headline-4 News
-  each article in articles
-    img(src=article.img)
-    .basic-panel-news
+  .basic-panel-news
+    each article in articles
+      img(src=article.img)
       h3.black-headline-6.line-adjustment= article.title
       p.gray-on-gray-subtitle-2.line-adjustment Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, deleniti? Temporibus ex tempore ipsum? Earum quas doloribus excepturi repudiandae facere, tempora magnam consectetur optio laudantium, accusamus quod explicabo quam modi?
+    button.secondary-button.blue-medium-label See all news

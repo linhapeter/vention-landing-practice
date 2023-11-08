@@ -17,6 +17,12 @@
       src: url('../../fonts/Manrope-Medium.ttf') format('truetype');
       }
 
+      @font-face {
+        font-family: 'Manrope';
+        font-weight: 700;
+        src: url('../../fonts/Manrope-SemiBold.ttf') format('truetype');
+        }
+
       .black-headline-4{
         color: colors.$blackColor;
         font-family: 'Manrope';
@@ -69,6 +75,23 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+  }
+
+  .white-medium-label{
+    color: colors.$secondaryColor;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .blue-medium-label{
+    color: colors.$primaryColor;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
   }
 
  
