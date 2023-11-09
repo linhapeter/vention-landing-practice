@@ -1,4 +1,3 @@
-console.log("========>>>Hello Gulp<<<========");
 
 const toggleMenu = () => {
   const menu = document.querySelector('.dropdown-menu');
@@ -77,7 +76,7 @@ const createCarousel = (containerSelector) => {
 }
 
 
-const carouselSections = ['.candidates-carousel', '.employers-carousel', '.headhunters-carousel'];
+const carouselSections = ['.candidates-carousel', '.employers-carousel', '.headhunters-carousel', '.rev-carousel-section'];
 
 carouselSections.forEach((section) => {
   createCarousel(section);

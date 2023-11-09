@@ -1,4 +1,4 @@
-- const candidatesSlides = [{title: "Efficient Collaborating"}, {title: "Intuitive Design"}, {title: "Mindblowing Service"}]
+- const reviews = [{title: "Efficient Collaborating"}, {title: "Intuitive Design"}, {title: "Mindblowing Service"}]
 
 
 section.carousel-section.rev-carousel-section
@@ -8,10 +8,10 @@ section.carousel-section.rev-carousel-section
     p.gray-on-gray-subtitle-2 We have been working with clients around the world
     .carousel-container.candidates-carousel
       .carousel 
-        each slide in candidatesSlides
+        each review in reviews
           .slide.rev-slide
             img(src="./assets/img/reviewStars.webp")
-            h3.black-headline-6= slide.title
+            h3.black-headline-6= review.title
             p.black-subtitle-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo enim consectetur! Quisquam tempora nihil illo rerum? Nulla quam sit fugiat, qui quaerat maiores odit sunt eligendi ut enim delectus.
             .profile-container
               img(src="./assets/img/circlePicture.webp")
