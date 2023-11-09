@@ -28,9 +28,9 @@ $.gulp.task(
       "js:process",
       // "sprite",
       "copy:image",
-      "css:foundation"
+      "css:foundation",
       // "sprite:svg",
-      // "copy:fonts"
+      "copy:fonts"
     ),
     $.gulp.parallel("watch", "serve")
   )
