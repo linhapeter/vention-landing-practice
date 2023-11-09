@@ -18,12 +18,9 @@
   width: 100%;
   overflow: hidden;
 }
-.info-panel{
-  background-color: colors.$grayColor;
-  border-radius: 8px;
-}
 
 .carousel {
+  
   display: flex;
   transition: transform 0.3s ease-in-out;
 }
