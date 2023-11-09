@@ -76,7 +76,7 @@ const createCarousel = (containerSelector) => {
 }
 
 
-const carouselSections = ['.candidates-carousel', '.employers-carousel', '.headhunters-carousel'];
+const carouselSections = ['.candidates-carousel', '.employers-carousel', '.headhunters-carousel', '.rev-carousel-section'];
 
 carouselSections.forEach((section) => {
   createCarousel(section);
