@@ -1,0 +1,41 @@
+@use 'colors.scss';
+
+.basic-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.basic-panel{
+  padding: 25px;
+  margin: 10px 0
+}
+
+.basic-section-gray{
+  background-color: colors.$grayColor;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.basic-panel-left{
+  margin: 10px 0;
+  text-align: start;
+  width: 280px;
+}
+
+.basic-section-cookies{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: colors.$basicTextGrayColor;
+}
+
