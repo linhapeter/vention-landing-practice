@@ -1,0 +1,16 @@
+- const panels = [{title: "Happy Clients", number: "40+", img: "./assets/img/headIcon.webp"}, {title: "Projects Completed", number: "540+", img: "./assets/img/caseIcon.webp"}, {title: "Dedicated Members", number: "300", img: "./assets/img/ribbonIcon.webp"}, {title: "Awards Won", number: "25+", img: "./assets/img/trophyIcon.webp"}]
+
+
+section.basic-section
+  article.carousel-article
+    div
+    h2.black-headline-4 Some count that matters 
+    p.gray-on-gray-subtitle-2 Our achievement in the journey depicted in numbers
+    .panel-container.carousel-container
+      each panel in panels
+        .slide.basic-panel
+          img(src=panel.img)
+          h3.black-headline-4.line-adjustment= panel.number
+          p.gray-on-gray-subtitle-2= panel.title 
+      
+  

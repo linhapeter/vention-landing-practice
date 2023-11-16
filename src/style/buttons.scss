@@ -1,7 +1,19 @@
 @use 'colors.scss';
 .primary-button{
   background-color: colors.$primaryColor;
-  color: colors.$secondaryColor;
+  padding: 10px;
+  border: 2px solid colors.$primaryColor;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.secondary-button{
+  background-color: colors.$secondaryColor;
   padding: 10px;
   border: 2px solid colors.$primaryColor;
   border-radius: 8px;
