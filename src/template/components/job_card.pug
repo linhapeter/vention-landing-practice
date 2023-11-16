@@ -1,0 +1,13 @@
+- const rows = [{icon: "./assets/img/poundIcon.webp", text: "£30,000 - £70,000 per annum"}, {icon: "./assets/img/clockIcon.webp", text: "Full-time"}, {icon: "./assets/img/locationIcon.webp", text: "London"}]
+
+section.basic-section-gray
+  .basic-panel-left
+    .title-heart
+      span.job-title Construction Manager
+      img.heart-icon(src="./assets/img/heartIcon.webp")
+    span.meta-text Posted February 01, 2021 by Tesla
+    each row in rows
+      .important-row
+        img.important-row__img(src=row.icon)
+        span.important-text= row.text
+    p Would you like to work from home part time with no experience and an immediate start? Research Tribe is looking for people across the UK to work from home by taking part in research. You could become a mystery shopper, product tester or simply share your...
