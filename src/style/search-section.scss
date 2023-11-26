@@ -126,3 +126,29 @@
   height: 50px;
   width: 42.5%;
   }
+
+  .page-numbers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .page-numbers__span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid colors.$basicTextGrayColor;
+    cursor: pointer;
+  }
+  .page-numbers-active__span {
+    border: 1px solid colors.$activeGreen;
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .page-numbers-inactive__span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: colors.$basicTextGrayColor;
+    border: 1px solid colors.$basicTextGrayColor;
+    cursor: pointer;
+  }

@@ -1,14 +1,24 @@
+include ../components/job_card
 section.basic-section-gray
   .basic-panel
     form.search-section-container(action="")
-      input.job-input-secondary.gray-on-gray-lead-1(type="text" placeholder="Job Title")
+      input.job-input-secondary.extra-bold-16-22-basicTextGrayColor(type="text" placeholder="Construction Manager")
       .bottom-container
-        input.where-input-secondary.gray-on-gray-lead-1(type="text" placeholder="Where")
-        select.search-section-select-secondary.gray-on-gray-lead-1
-          option.search-section-select__option.gray-on-gray-lead-1(value="" disabled selected) Distance
-          option.search-section-select__option.gray-on-gray-lead-1(value="")
-      a.secondary-button(href="./search.html") Filters
-      a.primary-button(href="./search.html") Search
+        input.where-input-secondary.extra-bold-16-22-basicTextGrayColor(type="text" value="London")
+        select.search-section-select-secondary.extra-bold-16-22-basicTextGrayColor
+          option.search-section-select__option.extra-bold-16-22-basicTextGrayColor(value="10 km" selected) 10 km
+          option.search-section-select__option.extra-bold-16-22-basicTextGrayColor(value="15 km") 15 km
+      a.secondary-button.bold-16-20-primaryColor(href="./search.html") Filters
+      a.primary-button.bold-16-20-secondaryColor(href="./search.html") Search
 block content
-  include ../components/job_card
+  +job_card("Construction Manager")
+  +job_card("Engineer")
 
+.page-numbers
+  .page-numbers-inactive__span.bold-14-20-secondaryColor  &lt; 
+  .page-numbers-active__span.bold-14-20-activeGreen 1
+  .page-numbers__span.bold-14-20-cookieBlack 2
+  .page-numbers__span.bold-14-20-cookieBlack ...
+  .page-numbers__span.bold-14-20-cookieBlack 9
+  .page-numbers__span.bold-14-20-cookieBlack 10
+  .page-numbers__span.bold-14-20-basicTextGrayColor &gt;

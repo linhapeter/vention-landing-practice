@@ -1,6 +1,6 @@
 @use 'colors.scss';
 .navbar {
-  padding: 5px;
+  padding: 5px 5px 0 5px; /* top, right, bottom, left */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,13 +43,7 @@
       border-bottom: 1px solid colors.$grayColor;
 
       &__a {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 16px;
         text-decoration: none;
-        color: colors.$blackColor;
-        display: block;
       }
     }
   }

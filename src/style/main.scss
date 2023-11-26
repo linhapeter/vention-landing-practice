@@ -1,16 +1,14 @@
+@use '_global.scss';
 @use 'colors.scss';
 @use 'text.scss';
 @use 'header.scss';
 @use 'footer.scss';
 @use 'search-section.scss';
+@use 'reusable.scss';
 @use 'carousel.scss';
 @use 'landing_reviews.scss';
 @use 'buttons.scss';
-@use 'reusable.scss';
 @use 'job-card.scss';
 
 
-* {
-  box-sizing: border-box;
-}
 

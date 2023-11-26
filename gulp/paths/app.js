@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = ["./src/js/main.js"];
+module.exports = ["./src/js/main.js", "./src/js/cookiesDialog.js"];

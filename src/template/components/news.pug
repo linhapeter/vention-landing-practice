@@ -1,0 +1,11 @@
+- const articles = [{title: "Big Update - We launched!", img: "./assets/img/newsCower_1.webp"}, {title: "Collaborations - together with CNN", img: "./assets/img/newsCower_2.webp"}, {title: "New platform - iOS application", img: "./assets/img/newsCower_3.webp"}]
+
+
+section.basic-section
+  h2.bold-24-30-cookieBlack News
+  .basic-panel-news
+    each article in articles
+      img(src=article.img)
+      h3.bold-18-26-cookieBlack= article.title
+      p.regular-16-24-basicTextGrayColor Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, deleniti? Temporibus ex tempore ipsum? Earum quas doloribus excepturi repudiandae facere, tempora magnam consectetur optio laudantium, accusamus quod explicabo quam modi?
+    button.secondary-button.blue-medium-label See all news
