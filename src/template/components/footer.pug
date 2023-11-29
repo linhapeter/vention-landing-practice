@@ -2,8 +2,8 @@ footer.footer
   nav.footer-nav(aria__label='footer-nav')
     each section in ['Company', 'Jobs', 'I-TAPP']
       .footer-nav__div
-        h5.footer-nav__div__h5.white-headline-4= section
-        ul.footer-nav__div__ul
+        h5.extra-bold-18-26-secondaryColor= section
+        ul.footer-nav__div__ul.regular-16-26-darkerGrayColor
           each item in (section === 'Company' ? ['Home', 'About I-TAPP', 'News', 'Terms and Conditions', 'Privacy Policy'] : section === 'Jobs' ? ['For Candidates', 'For Employers', 'For Headhunters'] : ['&copy; 2021 I-TAPP', 'All rights reserved'])
             li.footer-nav__div__ul__li
               a.footer-nav__div__ul__li__a.black-on-gray-body-1(href='#')= item

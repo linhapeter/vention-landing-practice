@@ -5,31 +5,236 @@
   src: url('../../fonts/Manrope-ExtraBold.ttf') format('truetype');
   }
 
-  @font-face {
-    font-family: 'Manrope';
-    font-weight: 400;
-    src: url('../../fonts/Manrope-Regular.ttf') format('truetype');
-    }
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 700;
+  src: url('../../fonts/Manrope-Bold.ttf') format('truetype');
+  }
 
-    @font-face {
-      font-family: 'Manrope';
-      font-weight: 500;
-      src: url('../../fonts/Manrope-Medium.ttf') format('truetype');
-      }
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 600;
+  src: url('../../fonts/Manrope-SemiBold.ttf') format('truetype');
+  }
 
-      @font-face {
-        font-family: 'Manrope';
-        font-weight: 700;
-        src: url('../../fonts/Manrope-SemiBold.ttf') format('truetype');
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 500;
+  src: url('../../fonts/Manrope-Medium.ttf') format('truetype');
+  }
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 400;
+  src: url('../../fonts/Manrope-Regular.ttf') format('truetype');
+  }
+
+// .extra-bold-30-normal-secondaryColor{
+//   font-size: 30px;
+//   font-family: Manrope;
+//   line-height: normal;
+//   font-weight: 900;
+//   color: colors.$secondaryColor
+// }
+
+.extra-bold-18-26-secondaryColor{
+  font-size: 18px;
+  font-family: Manrope;
+  line-height: 26px;
+  font-weight: 800;
+  color: colors.$secondaryColor
+}
+
+.extra-bold-16-22-basicTextGrayColor{
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 22px;
+  font-weight: 800;
+  color: colors.$activeGreen
+}
+
+.bold-24-30-cookieBlack{
+  font-size: 24px;
+  font-family: Manrope;
+  line-height: 30px;
+  font-weight: 700;
+  color: colors.$cookieBlack
+}
+
+.bold-18-26-cookieBlack{
+  font-size: 18px;
+  font-family: Manrope;
+  line-height: 26px;
+  font-weight: 700;
+  color: colors.$cookieBlack
+}
+
+.bold-16-20-primaryColor{
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 20px;
+  font-weight: 700;
+  color: colors.$primaryColor
+}
+
+.bold-16-20-secondaryColor{
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 20px;
+  font-weight: 700;
+  color: colors.$secondaryColor
+}
+
+.bold-14-22-cookieBlack{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 22px;
+  font-weight: 700;
+  color: colors.$cookieBlack
+}
+
+.bold-14-20-cookieBlack{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 20px;
+  font-weight: 700;
+  color: colors.$cookieBlack
+}
+
+.bold-14-20-activeGreen{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 20px;
+  font-weight: 700;
+  color: colors.$activeGreen
+}
+
+.bold-14-20-basicTextGrayColor{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 20px;
+  font-weight: 700;
+  color: colors.$basicTextGrayColor
+}
+
+.bold-14-20-secondaryColor{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 20px;
+  font-weight: 700;
+  color: colors.$secondaryColor
+}
+
+.regular-16-26-darkerGrayColor{
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 26px;
+  font-weight: 400;
+  color: colors.$darkerGrayColor
+}
+
+.regular-16-24-cookieBlack{
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 400;
+  color: colors.$cookieBlack
+}
+
+.regular-16-24-basicTextGrayColor{
+  font-size: 16px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 400;
+  color: colors.$basicTextGrayColor
+}
+
+.regular-14-16-cookieBlack{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 16px;
+  font-weight: 400;
+  color: colors.$cookieBlack
+}
+
+.regular-14-24-cookieBlack{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 400;
+  color: colors.$cookieBlack
+}
+
+.regular-14-24-basicTextGrayColor{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 400;
+  color: colors.$basicTextGrayColor
+}
+
+.regular-14-16-cookieBlack{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 16px;
+  font-weight: 400;
+  color: colors.$cookieBlack
+}
+
+.regular-12-24-basicTextGrayColor{
+  font-size: 12px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 400;
+  color: colors.$basicTextGrayColor
+}
+
+.regular-12-24-primaryColor{
+  font-size: 12px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 400;
+  color: colors.$primaryColor
+}
+
+
+     
+        .description {
+          color: colors.$cookieBlack;
+          font-size: 14px;
+          font-family: Manrope;
+          line-height: 24px;
         }
+        
+        .attribute {
+          color: colors.$cookieBlack;
+          font-size: 14px;
+          font-family: Manrope;
+          line-height: 22px;
+          font-weight: 700; /* Bold font style */
+        }
+        
+        .title {
+          color: colors.$cookieBlack;
+          font-size: 18px;
+          font-family: Manrope;
+          line-height: 26px;
+          font-weight: 700; /* Bold font style */
+        }
+      // .meta {
+      //   color: colors.$grayOnGrayColor;
+      //   font-size: 12px;
+      //   font-family: Manrope;
+      //   line-height: 16px;
+      // }
 
       .black-headline-4{
         color: colors.$blackColor;
         font-family: 'Manrope';
-        font-size: 28px;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 800;
-        line-height: 40px;
+        font-weight: 700;
+        line-height: 30px;
       }
 
       .white-headline-4{

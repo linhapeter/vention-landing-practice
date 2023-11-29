@@ -1,0 +1,19 @@
+.title-heart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.important-row{
+  display: flex;
+  align-items: center;
+
+  &__img{
+    padding-right: 10px;
+  }
+}
+
+
+.card-container{
+  width: 100%;
+}

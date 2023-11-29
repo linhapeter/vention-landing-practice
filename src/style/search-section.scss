@@ -5,11 +5,18 @@
   justify-content: center;
 }
  .search-section-container{
-  width: 50%;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-content: center;
+ }
+
+ .bottom-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
  }
   .job-input{
     background-color: colors.$grayColor;
@@ -20,9 +27,9 @@
     font-weight: 700;
     font-size: 16px;
     height: 30px;
-    width: 90%;
     margin-bottom: 10px;
     margin-top: 10px;
+    height: 45px;
   }
   .job-input::placeholder {
     color:  colors.$basicTextGrayColor;
@@ -37,9 +44,9 @@
     border-radius: 8px;
     font-weight: 700;
     font-size: 16px;
-    height: 30px;
-    width: 42.5%;
-    margin-right: 1.5%;
+    height: 45px;
+    width: 47%;
+  
   }
   .where-input::placeholder {
     color:  colors.$basicTextGrayColor;
@@ -47,10 +54,7 @@
     font-size: 16px;
   }
 
-  .search-section__p{
-    color: colors.$basicTextGrayColor;
-  }
-  .search-section__select{
+  .search-section-select{
     background-color: colors.$grayColor;
     color: colors.$basicTextGrayColor;
     padding: 10px;
@@ -58,9 +62,57 @@
     border-radius: 8px;
     font-weight: 700;
     font-size: 16px;
-    height: 50px;
-    width: 42.5%;
-    margin-left: 1.5%;
+    height: 45px;
+    width: 47%;
+  }
+
+  .job-input-secondary{
+    background-color: colors.$secondaryColor;
+    color: colors.$basicTextGrayColor;
+    padding: 10px;
+    border: 2px solid colors.$inputBorderGray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 45px;
+  }
+  .job-input-secondary::placeholder {
+    background-color: colors.$secondaryColor;
+    color:  colors.$basicTextGrayColor;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .where-input-secondary{
+    background-color: colors.$secondaryColor;
+    color: colors.$basicTextGrayColor;
+    padding: 10px;
+    border: 2px solid colors.$inputBorderGray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 45px;
+    width: 47%;
+  
+  }
+  .where-input-secondary::placeholder {
+    color:  colors.$basicTextGrayColor;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .search-section-select-secondary{
+    background-color: colors.$secondaryColor;
+    color: colors.$basicTextGrayColor;
+    padding: 10px;
+    border: 2px solid colors.$inputBorderGray;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 45px;
+    width: 47%;
   }
 
 .search-section__select__option {
@@ -73,4 +125,30 @@
   font-size: 16px;
   height: 50px;
   width: 42.5%;
+  }
+
+  .page-numbers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .page-numbers__span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid colors.$basicTextGrayColor;
+    cursor: pointer;
+  }
+  .page-numbers-active__span {
+    border: 1px solid colors.$activeGreen;
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .page-numbers-inactive__span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: colors.$basicTextGrayColor;
+    border: 1px solid colors.$basicTextGrayColor;
+    cursor: pointer;
   }
