@@ -1,4 +1,5 @@
-include ../components/job_card
+include ../mixins/job_card
+include ../mixins/button
 section.basic-section-gray
   .basic-panel
     form.search-section-container(action="")
@@ -8,11 +9,10 @@ section.basic-section-gray
         select.search-section-select-secondary.extra-bold-16-22-basicTextGrayColor
           option.search-section-select__option.extra-bold-16-22-basicTextGrayColor(value="10 km" selected) 10 km
           option.search-section-select__option.extra-bold-16-22-basicTextGrayColor(value="15 km") 15 km
-      a.secondary-button.bold-16-20-primaryColor(href="./search.html") Filters
-      a.primary-button.bold-16-20-secondaryColor(href="./search.html") Search
-block content
-  +job_card("Construction Manager")
-  +job_card("Engineer")
+      +button("Filter", "./filter.html", "secondary")
+      +button("Search", "./search.html", "primary")
++job_card("Construction Manager")
++job_card("Engineer")
 
 .page-numbers
   .page-numbers-inactive__span.bold-14-20-secondaryColor  &lt; 

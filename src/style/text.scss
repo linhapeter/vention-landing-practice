@@ -50,7 +50,7 @@
   font-family: Manrope;
   line-height: 22px;
   font-weight: 800;
-  color: colors.$activeGreen
+  color: colors.$basicTextGrayColor
 }
 
 .bold-24-30-cookieBlack{
@@ -83,6 +83,14 @@
   line-height: 20px;
   font-weight: 700;
   color: colors.$secondaryColor
+}
+
+.bold-14-24-blackColor{
+  font-size: 14px;
+  font-family: Manrope;
+  line-height: 24px;
+  font-weight: 700;
+  color: colors.$blackColor
 }
 
 .bold-14-22-cookieBlack{
@@ -195,6 +203,14 @@
   line-height: 24px;
   font-weight: 400;
   color: colors.$primaryColor
+}
+
+.regular-12-12-fadedGray{
+  font-size: 12px;
+  font-family: Manrope;
+  line-height: 12px;
+  font-weight: 400;
+  color: colors.$fadedGray
 }
 
 

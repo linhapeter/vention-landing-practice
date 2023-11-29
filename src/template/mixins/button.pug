@@ -1,0 +1,10 @@
+mixin button(title, href, buttonKind)
+  case buttonKind
+    when "secondary"
+      a.secondary-button.bold-16-20-primaryColor(href=href) #{title}
+    when "primary"
+      a.primary-button.bold-16-20-secondaryColor(href=href) #{title}
+    when "back"
+      a.back-panel.regular-16-24-basicTextGrayColor(href=href) &larr; #{title}  
+    default
+      p Wrong argument

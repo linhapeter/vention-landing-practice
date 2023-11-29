@@ -24,8 +24,6 @@
     padding: 10px;
     border: 2px solid colors.$inputBorderGray;
     border-radius: 8px;
-    font-weight: 700;
-    font-size: 16px;
     height: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -33,8 +31,6 @@
   }
   .job-input::placeholder {
     color:  colors.$basicTextGrayColor;
-    font-weight: 700;
-    font-size: 16px;
   }
   .where-input{
     background-color: colors.$grayColor;
@@ -42,16 +38,13 @@
     padding: 10px;
     border: 2px solid colors.$inputBorderGray;
     border-radius: 8px;
-    font-weight: 700;
-    font-size: 16px;
     height: 45px;
     width: 47%;
   
   }
   .where-input::placeholder {
     color:  colors.$basicTextGrayColor;
-    font-weight: 700;
-    font-size: 16px;
+
   }
 
   .search-section-select{
@@ -60,8 +53,7 @@
     padding: 10px;
     border: 2px solid colors.$inputBorderGray;
     border-radius: 8px;
-    font-weight: 700;
-    font-size: 16px;
+    
     height: 45px;
     width: 47%;
   }
@@ -72,8 +64,7 @@
     padding: 10px;
     border: 2px solid colors.$inputBorderGray;
     border-radius: 8px;
-    font-weight: 700;
-    font-size: 16px;
+   
     height: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -82,8 +73,6 @@
   .job-input-secondary::placeholder {
     background-color: colors.$secondaryColor;
     color:  colors.$basicTextGrayColor;
-    font-weight: 700;
-    font-size: 16px;
   }
   .where-input-secondary{
     background-color: colors.$secondaryColor;
@@ -91,26 +80,19 @@
     padding: 10px;
     border: 2px solid colors.$inputBorderGray;
     border-radius: 8px;
-    font-weight: 700;
-    font-size: 16px;
     height: 45px;
     width: 47%;
   
   }
   .where-input-secondary::placeholder {
     color:  colors.$basicTextGrayColor;
-    font-weight: 700;
-    font-size: 16px;
   }
 
   .search-section-select-secondary{
     background-color: colors.$secondaryColor;
-    color: colors.$basicTextGrayColor;
     padding: 10px;
     border: 2px solid colors.$inputBorderGray;
     border-radius: 8px;
-    font-weight: 700;
-    font-size: 16px;
     height: 45px;
     width: 47%;
   }

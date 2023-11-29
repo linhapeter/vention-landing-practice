@@ -1,3 +1,4 @@
+include ../mixins/button
 section.basic-section-gray
   .basic-panel
     div
@@ -12,4 +13,4 @@ section.basic-section-gray
         select.search-section-select.extra-bold-16-22-basicTextGrayColor
           option.search-section-select__option.extra-bold-16-22-basicTextGrayColor(value="" disabled selected) Distance
           option.search-section-select__option.extra-bold-16-22-basicTextGrayColor(value="")
-      a.primary-button.bold-16-20-secondaryColor(href="./search.html") Search
+      +button("Search", "./search.html", "primary")

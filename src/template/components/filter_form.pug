@@ -1,0 +1,61 @@
+include ../mixins/button
+- 
+  const checkboxChunks = [
+    {
+      title: "Job type", 
+      boxes: [
+        "Permanent (2 344)",
+        "Contract (203)",
+        "Temporary (4 342)",
+        "Part Time(14)"
+      ]
+    },
+    {
+      title: "Industry", 
+      boxes: [
+        "Surveyor (3 134)",
+        "Development Manager (205)",
+        "Construction Laborer (566)",
+        "Equipment Operator (81)"
+      ]
+    },
+    {
+      title: "Job type", 
+      boxes: [
+        "Office (3 134)",
+        "Partial Remote (205)",
+        "Fully Remote (3 566)"
+      ]
+    }
+  ]
+
++button("Back to search results", "./search.html", "back")  
+section.basic-section-gray
+  .basic-panel-left-secondary
+    .form-panel
+      .form-chunk
+        span.form-chunk-title.bold-14-24-blackColor Order
+        select.form-select.regular-14-24-cookieBlack
+            option.regular-14-24-cookieBlack(value="10 km" selected) By Relevance
+            option.regular-14-24-cookieBlack(value="15 km") By
+      .form-chunk
+        span.form-chunk-title.bold-14-24-blackColor Salary Range
+        spam.regular-14-24-cookieBlack From:
+          select.form-select.regular-14-24-cookieBlack
+            option.regular-14-24-cookieBlack(value="10 km" selected) &#163; Any
+            option.regular-14-24-cookieBlack(value="15 km") By
+        spam.regular-14-24-cookieBlack To:
+          select.form-select.regular-14-24-cookieBlack
+            option.regular-14-24-cookieBlack(value="10 km" selected) &#163; Any
+            option.regular-14-24-cookieBlack(value="15 km") By
+      each item in checkboxChunks
+        .form-chunk
+          .clear-all-container
+            span.bold-14-24-blackColor= item.title
+            span.regular-12-12-fadedGray Clear All
+          each box in item.boxes
+            label.custom-checkbox.regular-14-24-cookieBlack= box
+              input(type="checkbox")
+              span.checkmark
+  .basic-panel
+    +button("Apply Filters", "./search.html", "primary")

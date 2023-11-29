@@ -9,8 +9,8 @@
   text-align: center;
 }
 .basic-panel{
-  padding: 25px;
-  margin: 10px 0
+  margin: 10px 0;
+  width: 280px; 
 }
 
 .basic-section-gray{
@@ -28,6 +28,13 @@
   margin: 10px 0;
   text-align: start;
   width: 280px;
+}
+
+.basic-panel-left-secondary{
+  text-align: start;
+  margin: 10px 0;
+  width: 280px;
+  background-color: colors.$secondaryColor;
 }
 
 .basic-section-cookies{
